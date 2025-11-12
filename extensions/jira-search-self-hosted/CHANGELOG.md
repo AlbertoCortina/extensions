@@ -2,7 +2,7 @@
 
 ## [Update] - {PR_MERGE_DATE}
 
-Improved search by `key` to include numbers in project key.
+- Improved search by `key` to include numbers in project key.
 
 ## [Fixed typo] - 2024-04-30
 
