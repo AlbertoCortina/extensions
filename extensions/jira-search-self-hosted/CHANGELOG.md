@@ -1,6 +1,6 @@
 # Jira Search Self Hosted Changelog
 
-## [Update] - {PR_MERGE_DATE}
+## [Update] - 2025-11-12
 
 - Improved search by `key` to include numbers in project key.
 
