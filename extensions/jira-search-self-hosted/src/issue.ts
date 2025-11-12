@@ -59,7 +59,7 @@ function statusIcon(status: IssueStatus): Image {
  *  - Be case-insensitive (e.g., "ac-23" is valid)
  *
  * You can test this pattern here: https://regex101.com/r/dHHMLe/1
- * 
+ *
  * ✅ Valid examples:
  *  - "AC-23"
  *  - "AC2-23"
@@ -68,10 +68,10 @@ function statusIcon(status: IssueStatus): Image {
  *
  * ❌ Invalid examples:
  *  - "A-23"   → Only one character before dash
- *  - "2A-23"  → Does not start with a letter 
- *  - "123-23" → No letters before dash 
- *  - "-23"    → Missing prefix 
- *  - "A_C-23" → Underscore not allowed 
+ *  - "2A-23"  → Does not start with a letter
+ *  - "123-23" → No letters before dash
+ *  - "-23"    → Missing prefix
+ *  - "A_C-23" → Underscore not allowed
  *  - "A-23B"  → Suffix must be numeric
  *
  * @param query - The string to check.
